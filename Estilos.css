@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-y: auto; /* Habilita el desplazamiento vertical cuando sea necesario */
+}
+
+#titulo-principal {
+    text-align: right;
+    margin: 100px 40px; /* Ajusta los márgenes según tus preferencias */
+    padding: 100px;
+    background: url('vista-frontal-manos-sosteniendo-camara.jpg') center center / cover no-repeat fixed;
+    color: black; /* Cambia el color del texto si el fondo es oscuro */
+    transition: transform 0.3s; /* Transición de la animación */
+    font-size: 60px; /* Ajusta el tamaño de la fuente según tus preferencias */
+    font-style: italic; /* Aplica el estilo cursiva a la fuente */
+  }
+  #titulo-principal:hover {
+    transform: scale(1.2); /* Aumento de tamaño cuando se pasa el mouse */
+  }
+  #subtitulo {
+    text-align: center;
+  }
+  p {
+    text-align: center; /* Alinea los párrafos al centro */
+    text-align-last: center; /* Justifica el texto del párrafo */
+    padding-left: 5cm;
+    padding-right: 5cm;
+  }
+  .instagram-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: transform 0.3s;
+  }
+  
+  .instagram-button img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .instagram-button:hover {
+    transform: scale(1.1);
+  }
+  
+  .instagram-button:hover img {
+    transform: scale(1.2);
+  }
+  .panorama {
+    display: flex; /* Crea un contenedor flexible para las imágenes */
+    overflow-x: scroll; /* Habilita el desplazamiento horizontal */
+    white-space: nowrap; /* Evita el salto de línea entre imágenes */
+    scroll-behavior: smooth; /* Habilita el desplazamiento suave */
+  }
+  
+  .panorama img {
+    width: 300px; /* Ajusta el ancho de las imágenes según tus necesidades */
+    height: 400px; /* Ajusta la altura de las imágenes automáticamente */
+    margin-right: 10px; /* Espacio entre imágenes */
+  }
+  
+  
+  
+  
